@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive CSS Layout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <h1>My Responsive Webpage</h1>
+  </header>
+
+  <!-- Navigation (Flexbox) -->
+  <nav class="site-nav">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Layout (CSS Grid) -->
+  <main class="site-main">
+    
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2>Sidebar</h2>
+      <p>Some sidebar content or links go here.</p>
+    </aside>
+
+    <!-- Content area -->
+    <section class="content">
+      <h2>Main Content</h2>
+      <p>This is the primary content area of the webpage.</p>
+
+      <!-- Flexbox cards inside content -->
+      <div class="card-container">
+        <div class="card">Card 1</div>
+        <div class="card">Card 2</div>
+        <div class="card">Card 3</div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 My Responsive Site</p>
+  </footer>
+
+</body>
+</html>
